@@ -21,6 +21,7 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 
 ![eks4](https://github.com/user-attachments/assets/ec6ae435-cd58-4592-a84c-5bcc2bb1de2f)
 
+
 ![eks5](https://github.com/user-attachments/assets/aed47151-43a3-4f7f-bec2-c3192ad464dd) 
 
 # Copy the ALB DNS name and check it in the browser
