@@ -1,4 +1,4 @@
-# First configure IAM OIDC Provider for allowing the ALB controller to use iam roles for service accounts
+# First configured IAM OIDC Provider for allowing the ALB controller to use iam roles for service accounts
 
 - oidc_id=$(aws eks describe-cluster --name $cluster_name --query "cluster.identity.oidc.issuer" --output text | cut -d '/' -f 5)
 
